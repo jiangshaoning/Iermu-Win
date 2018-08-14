@@ -1,0 +1,54 @@
+﻿<include>
+  <!--login -->
+  <window pos="0,0,-0,-0" colorBkgnd="@color/white">  
+    <window pos="0,[5,-0,@50">
+      <imgbtn name="btn_back" skin="back_btn" pos="5, |0" offset="0.5, -0.5" ></imgbtn>
+      <text  pos="|0, |0" offset="-0.5,-0.5"  font="bold:1,size:18" >@string/login</text>
+      <imgbtn name="text_register" skin="white_btn_bg" pos="-60, 0, -20, -0" colorText="@color/blue">@string/register</imgbtn>
+    </window>
+    <hr pos="0,[1,-0,@2" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="2"/>
+    
+    <window pos="0,[40,-0,@30">
+      <text  pos="30, |0" offset="-0.5,-0.5" >@string/eight_six</text>
+      <hr pos="[3, 0, 3,-0" lineStyle="solid" mode="vertical" colorLine="@color/gray" size="1"/>
+      <edit name="login_edit_username" pos="60, 2, -100, -0" number="1" maxBuf="11" tip="@string/input_number" cueText="@string/input_number"></edit>
+      <hr pos="20,[5,-30,@2" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="1"/>
+    </window>
+    
+    
+    <window pos="0,[20,-0,@30">
+      <img  skin="icon_password" pos="30, |0" offset="-0.5,-0.5" ></img>
+      <edit name="login_edit_passwd" pos="[20, 2, -120, -0"  maxBuf="20" password="1" tip="@string/input_password" cueText="@string/input_password"></edit>
+      <hr pos="[10, 0, 3,-3" lineStyle="solid" mode="vertical" colorLine="@color/gray" size="1"/>
+      <imgbtn name="login_show_passwd" skin="white_btn_bg" pos="-100, 0, -30, -0" colorText="@color/blue">@string/show_password</imgbtn>
+      <!-->button  pos="-20, |0" offset="-1,-0.5" width="80" height="30" >@string/show_password</button-->
+      <hr pos="20,[5,-30,@2" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="1"/>
+    </window>
+
+    <window pos="0,[20,-0,@40">
+    <check name="check_phone" pos="60,0, @100, @30" checked="0">@string/rem_phonenum</check>
+    <check name="check_passwd" pos="-160,0, @100, @30" checked="0">@string/rem_password</check>
+    </window>
+    
+    <imgbtn name="btn_login_ok" skin="bule_btn" accel="enter" pos="20, [20, -20, @40" colorText="@color/white" >@string/login</imgbtn>
+ 
+
+  <window pos="20,-120, -20, @30" layout="hbox">
+    <window size="0,-2"  weight="1">
+      <hr pos="[0,[15,@120,30" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="1"/>
+    </window>
+    <window size="0,-2"  weight="1">
+      <text pos="[15,[0,@100,30" align="left" colorText="@color/gray">其他方式登录</text>
+    </window>
+    <window size="0,-2"  weight="1">
+      <hr pos="[0,[15,@120,30" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="1"/>
+    </window>
+  </window>
+
+  <imgbtn name="btn_baidu_login" skin="baidu_login_btn" pos="20, [5, -20, @40">
+    <img pos="100,6,@28,-6" skin="icon_baidu"></img>
+    <text pos="[15,0,-0,-0" class="font:bold" colorText="@color/white" >@string/baidu_login</text>
+   </imgbtn>
+
+ </window>
+</include>

@@ -1,0 +1,44 @@
+<include>
+  <!--pubilcCamera -->
+  <window pos="0,0,-0,-0" colorBkgnd="@color/white">
+    <text pos="0, 10, -0, @40"  font="face:宋体,bold:2" colorText="@color/black" align="center">@string/publicCamera_title</text>
+    <button pos="-100, 15, -30, @30" name="btn_refresh" focusable="0" colorText="@color/blue" align="center">@string/myCamera_refresh</button>
+    <hr pos="0,[5,-0,@2" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="2"/>
+  <tabctrl name="tab_public_camera" pos="5,[2,-5,-5" show="1" curSel="0" focusable="0" animateSteps="10" animateType="1" tabSkin="skin_tab_public"  icon-x="20" icon-y="20" tabAlign="top" text-y="20" tabWidth="320" tabHeight="50" colorText="@color/black" colorTextHover="@color/blue" colorTextPush="@color/blue">
+    <page title="推 荐">
+        <window pos="0, 10, -0, @40" show="1" name="win_refresh">
+          <text pos="0, 20, -0, @30"  font="face:宋体,bold:2" colorText="@color/black" align="center">@string/refreshing</text>
+        </window>
+        <tileview pos="5, 60,-5,-5" name="camera_image" wantTab="1" show="0" marginSize="5">
+          <template itemWidth="320" itemHeight="260"  colorHover="#cccccc" colorSelected="#0000ff" trackMouseEvent="0" skin="item_bg">
+            <img pos="|5,0,@280,@200" offset="-0.5,0" name="img_file_icon" msgtransparent="0" scaring="1" cursor="hand"/>
+            <button pos="|0,[5,@115,@22" offset="-0.5,0" name="btn_test" focusable="0" tip="click the button to see how to writing the response function">btn</button>
+          </template>
+        </tileview>    
+    </page>
+    <page title="最 热">
+        <window pos="0, 10, -0, @40" show="1" name="win_refresh">
+          <text pos="0, 20, -0, @30"  font="face:宋体,bold:2" colorText="@color/black" align="center">@string/refreshing</text>
+        </window>
+        <tileview pos="5, 60,-5,-5" name="camera_image" wantTab="1" show="0" marginSize="5">
+          <template itemWidth="320" itemHeight="260"  colorHover="#cccccc" colorSelected="#0000ff" trackMouseEvent="0" skin="item_bg">
+            <img pos="|5,0,@280,@200" offset="-0.5,0" name="img_file_icon" msgtransparent="0" scaring="1" cursor="hand"/>
+            <button pos="|0,[5,@115,@22" offset="-0.5,0" name="btn_test" focusable="0" tip="click the button to see how to writing the response function">btn</button>
+          </template>
+        </tileview>
+    </page>
+    <page title="最 新">
+        <window pos="0, 10, -0, @40" show="1" name="win_refresh">
+          <text pos="0, 20, -0, @30"  font="face:宋体,bold:2" colorText="@color/black" align="center">@string/refreshing</text>
+        </window>
+        <tileview pos="5, 60,-5,-5" name="camera_image" wantTab="1" show="0" marginSize="5">
+          <template itemWidth="320" itemHeight="260"  colorHover="#cccccc" colorSelected="#0000ff" trackMouseEvent="0" skin="item_bg">
+            <img pos="|5,0,@280,@200" offset="-0.5,0" name="img_file_icon" msgtransparent="0" scaring="1" cursor="hand"/>
+            <button pos="|0,[5,@115,@22" offset="-0.5,0" name="btn_test" focusable="0" tip="click the button to see how to writing the response function">btn</button>
+          </template>
+        </tileview>
+    </page>
+  </tabctrl>
+    
+  </window>
+</include>

@@ -1,0 +1,45 @@
+﻿生成启动时间为 2018/6/20 星期三 上午 11:38:49。
+     1>项目“D:\player\Iermu-Win\Iermu-Player\player-win32\fanplayer\fanplayer.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (fanplayer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\dx9sdk\include /I..\pthreads\include /I..\ffmpeg\include /I..\soundtouch\include /I"..\EAPIL-SDK\include" /I..\OpenGL\include /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D FFPLAYER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\src\adev-cmn.cpp" "..\..\src\adev-win.cpp" ..\..\src\dxva2hwa.cpp ..\..\src\ffplayer.cpp ..\..\src\ffrender.cpp ..\..\src\pktqueue.cpp ..\..\src\recorder.cpp ..\..\src\snapshot.cpp "..\..\src\vdev-cmn.cpp" "..\..\src\vdev-d3d.cpp" "..\..\src\vdev-eapil.cpp" "..\..\src\vdev-gdi.cpp" ..\..\src\veffect.cpp
+         adev-cmn.cpp
+         adev-win.cpp
+         dxva2hwa.cpp
+         ffplayer.cpp
+         ffrender.cpp
+         pktqueue.cpp
+         recorder.cpp
+         snapshot.cpp
+         vdev-cmn.cpp
+         vdev-d3d.cpp
+         vdev-eapil.cpp
+         vdev-gdi.cpp
+         veffect.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\player\Iermu-Win\Release\Iermu-Player.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\dx9sdk\lib /LIBPATH:..\pthreads\lib /LIBPATH:..\ffmpeg\bin /LIBPATH:..\soundtouch\bin /LIBPATH:"..\EAPIL-SDK\lib" /LIBPATH:..\OpenGL\lib d3d9.lib d3dx9.lib winmm.lib msimg32.lib pthread.lib avutil.lib avcodec.lib avformat.lib avdevice.lib avfilter.lib swscale.lib swresample.lib soundtouch.lib EPRenderSDK.lib glew32.lib OPENGL32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"fanplayer.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\player\Iermu-Win\Release\Iermu-Player.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\player\Iermu-Win\Release\Iermu-Player.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO /DLL "Release\adev-cmn.obj"
+         "Release\adev-win.obj"
+         Release\dxva2hwa.obj
+         Release\ffplayer.obj
+         Release\ffrender.obj
+         Release\pktqueue.obj
+         Release\recorder.obj
+         Release\snapshot.obj
+         "Release\vdev-cmn.obj"
+         "Release\vdev-d3d.obj"
+         "Release\vdev-eapil.obj"
+         "Release\vdev-gdi.obj"
+         Release\veffect.obj
+            正在创建库 D:\player\Iermu-Win\Release\Iermu-Player.lib 和对象 D:\player\Iermu-Win\Release\Iermu-Player.exp
+         正在生成代码
+         已完成代码的生成
+         fanplayer.vcxproj -> D:\player\Iermu-Win\Release\Iermu-Player.dll
+       PostBuildEvent:
+         copy  D:\player\Iermu-Win\Release\Iermu-Player.lib D:\player\Iermu-Win\Iermu-Win\lib\player
+         :VCEnd
+         已复制         1 个文件。
+     1>已完成生成项目“D:\player\Iermu-Win\Iermu-Player\player-win32\fanplayer\fanplayer.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.92

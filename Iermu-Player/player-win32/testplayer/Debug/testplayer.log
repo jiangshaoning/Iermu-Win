@@ -1,0 +1,34 @@
+﻿生成启动时间为 2018/6/13 星期三 上午 11:05:45。
+     1>项目“D:\player\fanplayer-master\player-win32\testplayer\testplayer.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\player\fanplayer-master\player-win32\Debug\testplayer.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\player\fanplayer-master\player-win32\Debug\testplayer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\player\fanplayer-master\player-win32\Debug\testplayer.lib" /MACHINE:X86 /SAFESEH Debug\player.res
+         Debug\player.obj
+         Debug\playerDlg.obj
+         Debug\stdafx.obj
+         "D:\player\fanplayer-master\player-win32\Debug\Iermu-Player.lib"
+     1>player.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         testplayer.vcxproj -> D:\player\fanplayer-master\player-win32\Debug\testplayer.exe
+       PostBuildEvent:
+         copy "D:\player\fanplayer-master\player-win32\\pthreads\dll\*.dll" "D:\player\fanplayer-master\player-win32\Debug\" /y
+         copy "D:\player\fanplayer-master\player-win32\\ffmpeg\bin\*.dll" "D:\player\fanplayer-master\player-win32\Debug\" /y
+         copy "D:\player\fanplayer-master\player-win32\\soundtouch\bin\*.dll" "D:\player\fanplayer-master\player-win32\Debug\" /y
+         
+         :VCEnd
+         D:\player\fanplayer-master\player-win32\\pthreads\dll\libwinpthread-1.dll
+         已复制         1 个文件。
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\avcodec-57.dll
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\avdevice-57.dll
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\avfilter-6.dll
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\avformat-57.dll
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\avutil-55.dll
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\libgcc_s_dw2-1.dll
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\swresample-2.dll
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\swscale-4.dll
+         已复制         8 个文件。
+         D:\player\fanplayer-master\player-win32\\soundtouch\bin\soundtouch.dll
+         已复制         1 个文件。
+     1>已完成生成项目“D:\player\fanplayer-master\player-win32\testplayer\testplayer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.68

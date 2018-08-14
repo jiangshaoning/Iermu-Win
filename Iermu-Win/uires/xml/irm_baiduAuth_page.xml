@@ -1,0 +1,20 @@
+﻿<include>
+   <!--baidu login -->
+  <window pos="0,0,-0,-0" colorBkgnd="@color/white">  
+    <window pos="0,[5,-0,@50">
+      <imgbtn name="baidu_back" skin="back_btn" pos="5, |0" offset="0.5, -0.5" ></imgbtn>
+      <text  pos="|0, |0" offset="-0.5,-0.5"  font="bold:2,size:18" >@string/baidu_account</text>
+    </window>
+    
+    <hr pos="0,[1,-0,@2" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="2"/>
+  <chromeTabCtrl pos="0,0,-0,@40" name="chromeTab" tabDesiredSize="200" enableDrag="1">
+    <tabStyle skin="_skin.sys.btn.normal"/>
+    <newBtnStyle size="40,30" skin="skin_chrome_tab_new"/>
+    <closeBtnStyle pos="-2,2" offset="-1,0" skin="skin_chrome_tab_close"/>
+  </chromeTabCtrl>
+  <window pos="0,[0,-0,-0">
+    <wkeWebkit name="wke_baidu" pos="0,0,-0,-0" url="" />
+      <!--这个窗口是前面的fadeframe的作用对象-->
+    </window>
+  </window>
+</include>

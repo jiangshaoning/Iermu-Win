@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<skin>
+  <imgframe name="login_bg"	src="png:ID_LOGIN_BG"/>
+  <imgframe name="iermu_text"	src="png:ID_IERMU_TEXT"/>
+  <imgframe name="login_nickname"	src="png:ID_NICKNAME"/>
+  <imgframe name="icon_user"	src="png:ID_ICON_USER"/>
+  <imgframe name="icon_password"	src="png:ID_ICON_PASSWD"/>
+  <imgframe name="icon_message"	src="png:ID_ICON_MSG"/>
+  <imgframe name="icon_baidu"	src="png:ID_ICON_BAIDU"/>
+  <imgframe name="iermu_thumb"	src="png:ID_THUMB_BG"/>
+  <imgframe name="alarmpush_close"	src="png:ID_ALARMPUSH_CLOSE"/>
+  <imgframe name="headimage"	src="png:ID_HEADIMG"/>
+  <imgframe name="headimage_bg"	src="png:ID_HEADIMG_BG"/>
+  <imgframe name="switch_bg"	src="png:ID_SWITCH_BG"/>
+
+  <imgframe name="icon_favorite"	src="png:ID_ICON_FAVORITE"/>
+  <imgframe name="icon_question"	src="png:ID_ICON_QUESTION"/>
+  <imgframe name="icon_account"	src="png:ID_ICON_ACCOUNT"/>
+  <imgframe name="icon_feedback"	src="png:ID_ICON_FEEDBACK"/>
+  <imgframe name="icon_about"	src="png:ID_ICON_ABOUT"/>
+  <imgframe name="icon_edit"	src="png:ID_ICON_EDIT"/>
+  <imgframe name="icon_prev"	src="png:ID_ICON_PREV"/>
+  <imgframe name="liveview_cam"	src="png:ID_LIVEVIEW_CAM"/>
+  <imgframe name="live_turning"	src="png:ID_LIVE_TURNING" states="3"/>
+  
+  <imgframe name="item_bg" src="png:ID_ITEM_BG" states="3" margin="3,3,3,3"/>
+
+  <imgframe name="white_btn_bg"	src="btn:ID_WHITE_BTN_BG"/>
+  <imgframe name="share_btn"	src="btn:ID_SHARE_BTN"/>
+  <imgframe name="playback_btn"	src="btn:ID_PLAYBACK_BTN"/>
+  <imgframe name="auth_normal_btn"	src="btn:ID_AUTH_NORMAL_BTN"/>
+  <imgframe name="auth_sel_btn"	src="btn:ID_AUTH_SEL_BTN"/>
+
+  <imglist name="baidu_login_btn"	src="btn:ID_BAIDU_LOGIN_BTN" states="3"/>
+  <imglist name="bule_btn"	src="btn:ID_BULE_BTN" states="3"/>
+  <imglist name="white_btn"	src="btn:ID_WHITE_BTN" states="3"/>
+  <imglist name="back_btn"	src="btn:ID_BACK_BTN" states="3"/>
+  <imglist name="skin_tab_main" src="png:ID_TAB_MAIN" states="3"/>
+  <imglist name="group_tab_icon" src="png:ID_GROUP_TAB_ICON" states="4"/>
+  <imglist name="skin_tab_public" src="png:ID_TAB_PUBLIC" states="3"/>
+  <imglist name="switch_force"	src="png:ID_SWITCH_FORCE" states="8"/>
+</skin>

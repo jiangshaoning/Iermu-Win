@@ -1,0 +1,62 @@
+<include>
+  <!--register -->
+  <window pos="0,0,-0,@180" skin="headimage_bg">
+    <imageMask  pos="|-30, |-30, @60, @60" skin="headimage" mask="PNG:ID_HEAD_MASK"></imageMask>
+    <img  pos="|8, |8, @24, @24" skin="icon_edit"></img>
+    <text pos="0,[0,-0,-0" align="center" colorText="@color/white">@string/username</text>
+  </window>
+
+  <window pos="0,[0, -0, @60" layout="hbox">
+    <imgbtn name="my_photo" size="0,-2" skin="white_btn_bg" animate="1" weight="1">
+      <text pos="0,[5,-0,30" align="center" class="font:bold" colorText="@color/black">0</text>
+      <text pos="0,[5,-0,-0" align="center" class="font:label">@string/my_photo</text>
+    </imgbtn>
+    <imgbtn name="my_video" size="0,-2" skin="white_btn_bg" animate="1" weight="1">
+      <text pos="0,[5,-0,30" align="center" class="font:bold" colorText="@color/black">0</text>
+      <text pos="0,[5,-0,-0" align="center" class="font:label" >@string/my_video</text>
+    </imgbtn>
+    <imgbtn name="my_camera" size="0,-2" skin="white_btn_bg" animate="1" weight="1">
+      <text pos="0,[5,-0,30" align="center" class="font:bold" colorText="@color/black" >0</text>
+      <text pos="0,[5,-0,-0" align="center" class="font:label" >@string/my_camera</text>
+    </imgbtn>
+  </window>
+  
+  <window pos="0,[20,-0,@150" layout="vbox">
+    <imgbtn name="my_favorite" size="-2,0" skin="white_btn_bg" animate="1" weight="1">
+      <hr pos="0,0,-0,@1" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="1"/>
+      <img pos="10,13,@24,-13" skin="icon_favorite"></img>
+      <text pos="[15,0,-0,-0" class="font:bold" colorText="@color/black" >@string/my_favorite</text>
+      <hr pos="{0,-1,-0,@1" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="1"/>
+      <img pos="-34,13,-10,-13" skin="icon_prev"></img>
+    </imgbtn>
+    <imgbtn name="my_question" size="-2,0" skin="white_btn_bg" animate="1" weight="1">
+      <img pos="10,13,@24,-13" skin="icon_question"></img>
+      <text pos="[15,0,-0,-0" class="font:bold" colorText="@color/black" >@string/my_question</text>
+      <hr pos="{0,-1,-0,@1" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="1"/>
+      <img pos="-34,13,-10,-13" skin="icon_prev"></img>
+    </imgbtn>
+    <imgbtn name="my_account" size="-2,0" skin="white_btn_bg" animate="1" weight="1">
+      <img pos="10,13,@24,-13" skin="icon_account"></img>
+      <text pos="[15,0,-0,-0" class="font:bold" colorText="@color/black" >@string/my_account</text>
+      <hr pos="0,-1,-0,@1" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="1"/>
+      <img pos="-34,13,-10,-13" skin="icon_prev"></img>
+    </imgbtn>
+  </window>
+
+  <window pos="0,[20,-0,@100" layout="vbox">
+    <imgbtn name="my_feedback" size="-2,0" skin="white_btn_bg" animate="1" weight="1">
+      <hr pos="0,0,-0,@1" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="1"/>
+      <img pos="10,13,@24,-13" skin="icon_feedback"></img>
+      <text pos="[15,0,-0,-0" class="font:bold" colorText="@color/black" >@string/my_feedback</text>
+      <hr pos="{0,-1,-0,@1" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="1"/>
+      <img pos="-34,13,-10,-13" skin="icon_prev"></img>
+    </imgbtn>
+    <imgbtn name="about" size="-2,0" skin="white_btn_bg" animate="1" weight="1">
+      <img pos="10,13,@24,-13" skin="icon_about"></img>
+      <text pos="[15,0,-0,-0" class="font:bold" colorText="@color/black" >@string/about</text>
+      <hr pos="0,-1,-0,@1" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="1"/>
+      <img pos="-34,13,-10,-13" skin="icon_prev"></img>
+    </imgbtn>
+  </window>
+  
+</include>

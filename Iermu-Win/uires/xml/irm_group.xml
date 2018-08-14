@@ -1,0 +1,28 @@
+﻿<SOUI name="groupWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="1366" height="768"  margin="10,10,10,10"  resizable="1" wndType="appMain" appWnd="1" translucent="1" >
+  <root>
+    <window pos="0,0,-0,-0" skin="_skin.sys.wnd.bkgnd" cache="1">
+      <caption pos="0,0,-0,30" show="1" font="adding:0">
+        <icon pos="10,8" src="ICON_LOGO:16"/>
+        <text pos="29,9">@string/title</text>
+        <imgbtn name="btn_close" skin="_skin.sys.btn.close"    pos="-45,0" tip="close" animate="1"/>
+        <imgbtn name="btn_max" skin="_skin.sys.btn.maximize"  pos="-83,0" animate="1" />
+        <imgbtn name="btn_restore" skin="_skin.sys.btn.restore"  pos="-83,0" show="0" animate="1" />
+        <imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-121,0" animate="1" />
+      </caption>
+      <tabctrl name="tab_main" pos="5,[2,-5,-5" show="1" curSel="0" focusable="0" animateSteps="10" animateType="1" tabSkin="skin_tab_main" iconSkin="group_tab_icon" icon-x="20" icon-y="40" tabAlign="left" text-y="100" tabWidth="100" tabHeight="160" colorText="@color/gray" colorTextHover="@color/blue" colorTextPush="@color/blue">
+        <page title="我的摄像机">
+          <include src="layout:myCamera"/>
+        </page>
+        <page title="消息">
+          <include src="layout:alarmMsg"/>
+        </page>
+        <page title="公共频道">
+          <include src="layout:pubilcCamera"/>
+        </page>
+        <page title="个人">
+          <include src="layout:mySetting"/>
+        </page>
+      </tabctrl>
+    </window>
+  </root>
+</SOUI>

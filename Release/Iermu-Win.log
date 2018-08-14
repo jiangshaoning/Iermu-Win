@@ -1,0 +1,32 @@
+﻿生成启动时间为 2017/6/30 星期五 下午 18:05:52。
+     1>项目“D:\player\Iermu-Win\Iermu-Win\Iermu-Win.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\MFC\soui-master\config" /I"D:\MFC\soui-master\components" /I"D:\MFC\soui-master\SOUI\include" /I"D:\MFC\soui-master\utilities\include" /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Iermu-Win.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\MFC\soui-master\config" /I"D:\MFC\soui-master\components" /I"D:\MFC\soui-master\SOUI\include" /I"D:\MFC\soui-master\utilities\include" /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Iermu-Win.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GroupDlg.cpp http\HttpConnect.cpp http\HttpSocket.cpp http\IHttp.cpp "Iermu-Win.cpp" MainDlg.cpp
+         GroupDlg.cpp
+         HttpConnect.cpp
+         HttpSocket.cpp
+         IHttp.cpp
+         Iermu-Win.cpp
+         MainDlg.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0409" /I"D:\MFC\soui-master\soui-sys-resource" /nologo /fo"Release\Iermu-Win.res" Iermu-Win.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\player\Iermu-Win\Release\Iermu-Win.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\MFC\soui-master\bin" utilities.lib soui.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\player\Iermu-Win\Release\Iermu-Win.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\player\Iermu-Win\Release\Iermu-Win.lib" /MACHINE:X86 /SAFESEH "Release\Iermu-Win.res"
+         Release\GroupDlg.obj
+         Release\HttpConnect.obj
+         Release\HttpSocket.obj
+         Release\IHttp.obj
+         "Release\Iermu-Win.obj"
+         Release\MainDlg.obj
+         Release\stdafx.obj
+         GroupDlg.obj : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+         正在生成代码
+         已完成代码的生成
+         Iermu-Win.vcxproj -> D:\player\Iermu-Win\Release\Iermu-Win.exe
+     1>已完成生成项目“D:\player\Iermu-Win\Iermu-Win\Iermu-Win.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.29

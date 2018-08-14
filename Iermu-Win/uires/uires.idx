@@ -1,0 +1,70 @@
+﻿<resource>
+  <UIDEF>
+    <file name="XML_INIT" path="uidef\init.xml"/>
+  </UIDEF>
+  <LAYOUT>
+    <file name="XML_MAINWND" path="xml\irm_login.xml"/>
+    <file name="page_main" path="xml\irm_main_page.xml"/>
+    <file name="page_login" path="xml\irm_login_page.xml"/>
+    <file name="page_register" path="xml\irm_register_page.xml"/>
+    <file name="page_baiduAuth" path="xml\irm_baiduAuth_page.xml"/>
+    <file name="XML_GROUPWND" path="xml\irm_group.xml"/>
+    <file name="myCamera" path="xml\irm_myCamera.xml"/>
+    <file name="alarmMsg" path="xml\irm_alarmMsg.xml"/>
+    <file name="pubilcCamera" path="xml\irm_pubilcCamera.xml"/>
+    <file name="mySetting" path="xml\irm_mySetting.xml"/>
+    <file name="XML_PLAYER" path="xml\irm_player.xml"/>
+  </LAYOUT>
+  
+  <values>
+  	<file name="string" path="values\string.xml"/>
+  	<file name="color" path="values\color.xml"/>
+  	<file name="skin" path="values\skin.xml"/>
+  </values>
+
+  <PNG>
+    <file name ="ID_LOGIN_BG" path="image\login_bg.png"/>
+    <file name ="ID_IERMU_TEXT" path="image\iermu_text.png"/>
+    <file name ="ID_NICKNAME" path="image\login_icon_nickname.png"/>
+    <file name ="ID_ICON_USER" path="image\login_icon_user.png"/>
+    <file name ="ID_ICON_PASSWD" path="image\login_icon_password.png"/>
+    <file name ="ID_ICON_MSG" path="image\login_icon_message.png"/>
+    <file name ="ID_ICON_BAIDU" path="image\login_icon_baidu.png"/>
+    <file name ="ID_TAB_MAIN"  path="image\tab_main.png" />
+    <file name ="ID_GROUP_TAB_ICON"  path="image\group_tab_icon.png" />
+    <file name ="ID_THUMB_BG"  path="image\iermu_thumb.png" />
+    <file name ="ID_ITEM_BG" path="image\item_bk.png"/>
+    <file name ="ID_TAB_PUBLIC"  path="image\tab_pubic.png" />
+    <file name ="ID_ALARMPUSH_CLOSE"  path="image\alarmPushClose_img.png" />
+    <file name ="ID_HEAD_MASK"  path="image\head_mask.png" />
+    <file name ="ID_HEADIMG"  path="image\headImage.png" />
+    <file name ="ID_HEADIMG_BG"  path="image\headImage_bg.png" />
+    <file name ="ID_SWITCH_BG"  path="image\switch_back.png" />
+    <file name ="ID_SWITCH_FORCE"  path="image\switch_force.png" />
+    <file name ="ID_ICON_FAVORITE"  path="image\me_icon_favorite.png" />
+    <file name ="ID_ICON_QUESTION"  path="image\me_icon_question.png" />
+    <file name ="ID_ICON_ACCOUNT"  path="image\me_icon_account.png" />
+    <file name ="ID_ICON_FEEDBACK"  path="image\me_icon_feedback.png" />
+    <file name ="ID_ICON_ABOUT"  path="image\me_icon_about.png" />
+    <file name ="ID_ICON_EDIT"  path="image\me_icon_edit.png" />
+    <file name ="ID_ICON_PREV"  path="image\me_icon_prev.png" />
+    <file name ="ID_LIVEVIEW_CAM"  path="image\liveview_cam.png" />
+    <file name ="ID_LIVE_TURNING"  path="image\live_btn_turning.png" />
+  </PNG>
+  
+  <BTN>
+    <file name ="ID_BAIDU_LOGIN_BTN" path="image\btn_baidu_login.png"/>
+    <file name ="ID_BULE_BTN" path="image\btn_blue.png"/>
+    <file name ="ID_WHITE_BTN" path="image\btn_white.png"/>
+    <file name ="ID_BACK_BTN" path="image\btn_back.png"/>
+    <file name ="ID_WHITE_BTN_BG" path="image\btn_white_bg.png"/>
+    <file name ="ID_SHARE_BTN" path="image\btn_share.png"/>
+    <file name ="ID_PLAYBACK_BTN" path="image\btn_playback.png"/>
+    <file name ="ID_AUTH_NORMAL_BTN" path="image\btn_auth_normal.png"/>
+    <file name ="ID_AUTH_SEL_BTN" path="image\btn_auth_sel.png"/>
+  </BTN>
+  
+  <ICON>
+    <file name="ICON_LOGO"  path="image\iermu.ico"/>
+  </ICON>
+    </resource>

@@ -1,0 +1,11 @@
+<include>
+  <!--alarmMsg -->
+
+  <window pos="0, 0, -0, @60"  colorBkgnd="@color/white">
+    <switch pos="|0,|0" offset="-0.5, -0.5" skin="switch_bg" skinforce="switch_force" open="0"/>
+  </window>
+  
+  <window pos="0, [0, -0, -0">
+    <img pos="|0, |0" offset="-0.5, -0.8" skin="alarmpush_close"></img>
+  </window>
+</include>

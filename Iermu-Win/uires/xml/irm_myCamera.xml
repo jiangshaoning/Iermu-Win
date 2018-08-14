@@ -1,0 +1,44 @@
+<include>
+  <!--myCamera -->
+  <window pos="0,0,-0,-0" colorBkgnd="@color/white">
+    <check pos="30, 15, 100, @30" name="check_fourplayer" colorText="@color/blue" align="center">@string/four_player</check>
+    <text pos="0, 10, -0, @40"  font="face:宋体,bold:2" colorText="@color/black" align="center">@string/myCamera_title</text>
+    <button pos="-100, 15, -30, @30" name="btn_refresh" focusable="0" colorText="@color/blue" align="center">@string/myCamera_refresh</button>
+    <hr pos="0,[5,-0,@2" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="2"/>
+    <window pos="0, [10, -0, @40" show="1" display ="0" name="win_refresh" animate="1"> 
+      <text pos="0, [10, -0, @30"  font="face:宋体,bold:2" colorText="@color/black" align="center">@string/refreshing</text>
+    </window>
+    <tileview pos="5, [10,-5,-5" name="camera_image" wantTab="1" show="0" marginSize="5">
+      <template itemWidth="600" itemHeight="325"  colorHover="#cccccc" colorSelected="#0000ff" trackMouseEvent="0" skin="item_bg">
+
+        <window pos="[10,[5, @600, @35" >
+          <img pos="0, 0, @30 @30" skin="liveview_cam"> </img>
+          <text name="camera_description" pos="[10, 0, -40, -3"  class="font:label">@string/my_camera_description</text>
+          <imgbtn name="camera_setting" pos="[2,4,@24,@24" skin="live_turning" animate="1"></imgbtn>
+        </window> 
+         
+        <img pos="|0,[0,@590,@240" offset="-0.5,0" skin="iermu_thumb" name="img_file_icon" msgtransparent="0" scaring="1" cursor="hand"/>
+        <hr pos="5,[5,-5,@2" lineStyle="solid" mode="horizontal" colorLine="@color/gray" size="1"/>
+        
+        <window pos="0,[5, @600, @30" layout="hbox">
+          <imgbtn name="authorized_family" size="0,-2" skin="item_bg" animate="1" weight="1">
+            <img pos="[5,[5,@16,@16" skin="share_btn"></img>
+            <text pos="[10,0,-0,-0" class="font:label">@string/my_auth</text>
+          </imgbtn>
+          <imgbtn name="share_camera" size="0,-2" skin="item_bg" animate="1" weight="1">
+            <img pos="[5,[5,@16,@16" skin="playback_btn"></img>
+            <text pos="[10,0,-0,-0" class="font:label" >@string/my_share</text>
+          </imgbtn>
+          <imgbtn name="video_recording" size="0,-2" skin="item_bg" animate="1" weight="1">
+            <img pos="[5,[5,@16,@16" skin="auth_normal_btn"></img>
+            <text pos="[10,0,-0,-0"  class="font:label" >@string/my_playback</text>
+          </imgbtn>
+        </window>
+
+        <text pos="|230,|-100,@32,@20" name="camera_status" colorBkgnd="@color/hblue" colorText="@color/white">@string/camera_online</text>
+        
+      </template>
+    </tileview>     
+  </window>
+  
+</include>

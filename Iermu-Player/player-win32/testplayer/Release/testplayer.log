@@ -1,0 +1,45 @@
+﻿生成启动时间为 2018/6/13 星期三 上午 10:37:38。
+     1>项目“D:\player\fanplayer-master\player-win32\testplayer\testplayer.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\ffmpeg\include /I..\..\src /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\testplayer.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\ffmpeg\include /I..\..\src /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\testplayer.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt player.cpp playerDlg.cpp
+         player.cpp
+         playerDlg.cpp
+     1>playerDlg.cpp(39): warning C4305: “=”: 从“int”到“char”截断
+     1>playerDlg.cpp(39): warning C4309: “=”: 截断常量值
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0409" /IRelease\ /nologo /fo"Release\player.res" player.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\player\fanplayer-master\player-win32\Release\testplayer.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\player\fanplayer-master\player-win32\Release\testplayer.pdb" /SUBSYSTEM:WINDOWS /STACK:"0" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\player\fanplayer-master\player-win32\Release\testplayer.lib" /MACHINE:X86 /SAFESEH Release\player.res
+         Release\player.obj
+         Release\playerDlg.obj
+         Release\stdafx.obj
+         "D:\player\fanplayer-master\player-win32\Release\Iermu-Player.lib"
+         正在生成代码
+         已完成代码的生成
+         testplayer.vcxproj -> D:\player\fanplayer-master\player-win32\Release\testplayer.exe
+       PostBuildEvent:
+         copy "D:\player\fanplayer-master\player-win32\\pthreads\dll\*.dll" "D:\player\fanplayer-master\player-win32\Release\" /y
+         copy "D:\player\fanplayer-master\player-win32\\ffmpeg\bin\*.dll" "D:\player\fanplayer-master\player-win32\Release\" /y
+         copy "D:\player\fanplayer-master\player-win32\\soundtouch\bin\*.dll" "D:\player\fanplayer-master\player-win32\Release\" /y
+         
+         :VCEnd
+         D:\player\fanplayer-master\player-win32\\pthreads\dll\libwinpthread-1.dll
+         已复制         1 个文件。
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\avcodec-57.dll
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\avdevice-57.dll
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\avfilter-6.dll
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\avformat-57.dll
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\avutil-55.dll
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\libgcc_s_dw2-1.dll
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\swresample-2.dll
+         D:\player\fanplayer-master\player-win32\\ffmpeg\bin\swscale-4.dll
+         已复制         8 个文件。
+         D:\player\fanplayer-master\player-win32\\soundtouch\bin\soundtouch.dll
+         已复制         1 个文件。
+     1>已完成生成项目“D:\player\fanplayer-master\player-win32\testplayer\testplayer.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.55

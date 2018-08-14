@@ -1,0 +1,34 @@
+﻿生成启动时间为 2018/5/29 星期二 下午 15:12:59。
+     1>项目“D:\player\fanplayer-master\player-win32\ffspliter\ffspliter.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\ffmpeg\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ffspliter.cpp
+         ffspliter.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\player\fanplayer-master\player-win32\Debug\ffspliter.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\ffmpeg\bin avcodec.lib avformat.lib avutil.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\player\fanplayer-master\player-win32\Debug\ffspliter.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\player\fanplayer-master\player-win32\Debug\ffspliter.lib" /MACHINE:X86 /SAFESEH Debug\ffspliter.obj
+     1>ffspliter.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>avcodec.lib(dmacs00136.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avcodec.lib(dmacs00103.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00124.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00113.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00062.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00098.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00097.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00088.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00099.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00083.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00100.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00086.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00059.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00066.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00084.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00106.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00046.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avformat.lib(duecs00079.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avutil.lib(dwnds00381.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>avutil.lib(dwnds00382.o) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>D:\player\fanplayer-master\player-win32\Debug\ffspliter.exe : fatal error LNK1281: 无法生成 SAFESEH 映像。
+     1>已完成生成项目“D:\player\fanplayer-master\player-win32\ffspliter\ffspliter.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.10

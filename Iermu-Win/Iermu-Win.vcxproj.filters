@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{215cec1c-e183-4c80-8aa7-d985b5c1f3e3}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3e61fa64-a9ea-4763-bbca-45d447cb0410}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{42516a37-22b6-472e-b96e-e62f3d9b9013}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="SoUI Resouece">
+      <UniqueIdentifier>{ec3e547b-5b89-450c-808b-f8ba0359fefa}</UniqueIdentifier>
+      <Extensions>idx;xml;png;gif;jpg;ico;lua;bmp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\player">
+      <UniqueIdentifier>{e772cd8e-d284-4200-8520-9d6d64591897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\http">
+      <UniqueIdentifier>{a67e5475-a268-44e8-b20d-1f8059b116fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\thread">
+      <UniqueIdentifier>{6143e589-89e6-49bc-bb18-46650a266df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\player">
+      <UniqueIdentifier>{aaf4ac94-1de2-4159-9583-3a66dcceb88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\thread">
+      <UniqueIdentifier>{b22853f8-6ccb-4239-8b6f-24264bae9469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\http">
+      <UniqueIdentifier>{4c8470ba-2425-4657-bc33-b1da477a5221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\string">
+      <UniqueIdentifier>{e7d85f31-8065-48d3-86dc-f90456230e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dlg">
+      <UniqueIdentifier>{39916318-b4db-452e-9305-36751d888601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dlg">
+      <UniqueIdentifier>{1cf7271c-4e3d-4f25-b585-5f17f57ff72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sqlite">
+      <UniqueIdentifier>{6efe834a-5c78-4363-9d7c-2271278a7a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sqlite">
+      <UniqueIdentifier>{f0348677-0347-411e-a718-aefd8267b9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\custom">
+      <UniqueIdentifier>{dfc2cbe9-783c-4cd4-b5a0-6a7c0ee54182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\custom">
+      <UniqueIdentifier>{fc44867d-a3a7-4814-a7e4-6ace6fcfdebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\socket">
+      <UniqueIdentifier>{efac4d35-6d79-4b12-9fc0-b9cc2c3e09ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\socket">
+      <UniqueIdentifier>{908590e1-2180-4beb-95e9-1c85e42658e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\threadObject.cpp">
+      <Filter>Source Files\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\HttpConnect.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\HttpSocket.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\IHttp.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlg\GroupDlg.cpp">
+      <Filter>Source Files\dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlg\MainDlg.cpp">
+      <Filter>Source Files\dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Iermu-Win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqlite\CppSQLite3.cpp">
+      <Filter>Source Files\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\custom\SImageMaskWnd.cpp">
+      <Filter>Source Files\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="src\custom\SSwitch.cpp">
+      <Filter>Source Files\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="src\custom\SerializeObj.cpp">
+      <Filter>Source Files\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="src\custom\CameraAdapter.cpp">
+      <Filter>Source Files\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\UpnpTool.cpp">
+      <Filter>Source Files\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player\FourInterface.cpp">
+      <Filter>Source Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player\SouiRealWndHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player\RealWndDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\custom\SMiniblink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Iermu-Win.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\http\HttpConnect.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\http\HttpSocket.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\http\IHttpInterface.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\thread\threadObject.h">
+      <Filter>Header Files\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dlg\GroupDlg.h">
+      <Filter>Header Files\dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dlg\MainDlg.h">
+      <Filter>Header Files\dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\custom\customFun.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqlite\CppSQLite3.h">
+      <Filter>Header Files\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="include\custom\SImageMaskWnd.h">
+      <Filter>Header Files\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqlite\sqlite3.h">
+      <Filter>Header Files\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="include\custom\SSwitch.h">
+      <Filter>Header Files\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="include\http\HttpData.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\custom\SerializeObj.h">
+      <Filter>Header Files\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="include\custom\CameraAdapter.h">
+      <Filter>Header Files\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="include\socket\UpnpTool.h">
+      <Filter>Header Files\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="include\player\FourInterface.h">
+      <Filter>Header Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\player\SouiRealWndHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\player\RealWndDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\player\RealWndDlg_URL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\custom\SMiniblink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\custom\wke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\soui_res.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="uires\uidef\init.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\values\color.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\values\skin.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\values\string.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="uires\image\soui.ico">
+      <Filter>SoUI Resouece</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="uires\uires.idx">
+      <Filter>SoUI Resouece</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Release\Iermu-Player.lib" />
+  </ItemGroup>
+</Project>

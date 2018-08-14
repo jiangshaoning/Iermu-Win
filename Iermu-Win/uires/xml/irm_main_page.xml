@@ -1,0 +1,9 @@
+﻿<include>
+  <!--main -->
+    <window skin="login_bg" pos="0,0,-0,-0">
+      <img skin="iermu_text" pos="40, 40, -40, @40"></img>
+      <imgbtn name="btn_login" skin="bule_btn" pos="40, -160, -40, -120" colorText="@color/white" >@string/login</imgbtn>
+      <imgbtn name="btn_register" skin="white_btn" pos="40, -100, -40, -60" colorText="@color/blue">@string/fast_reg</imgbtn>
+    </window>
+</include>
+
